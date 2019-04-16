@@ -22,6 +22,7 @@ export default class CreateTodo extends Component {
     }
 
     // The following three methods update the state properties
+    //
     onChangeTodoDescription(e) {
         this.setState({
             todo_description: e.target.value
