@@ -11,7 +11,7 @@ let Todo = new Schema({
     todo_priority: {
         type: String
     },
-    todo_Completed: {
+    todo_completed: {
         type: Boolean
     }
 });
